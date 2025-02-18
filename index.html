@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Set the character encoding to UTF-8 -->
+  <meta charset="UTF-8">
+  <!-- Link to Font Awesome CSS for using icons (e.g., chevrons) -->
+  <link rel="stylesheet" href="all.min.css" />
+  <!-- Link to the custom CSS file for the slider -->
+  <link rel="stylesheet" href="./slider.css">
+  
+  <!-- Ensure the page is responsive on all devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Page Title -->
+  <title>Slider Project</title>
+</head>
+<body>
+  <!-- Main container for the slider -->
+  <div class="container">
+    <!-- Top section containing the slider controls and the frame -->
+    <div class="top">
+      <!-- Left navigation button with Font Awesome chevron icon -->
+      <i id="prev" class="fa-solid fa-chevron-left left"></i>
+      
+      <!-- Frame to hold the slider; this acts as a viewport to show a portion of the slider -->
+      <div class="frame">
+        <!-- Slider container which holds all the slide images -->
+        <div class="slider">
+          <!-- Each image represents a slide -->
+          <img src="./img/img1.jpg" alt="slide image" class="image">
+          <img src="./img/img2.jpg" alt="slide image" class="image">
+          <img src="./img/img3.jpg" alt="slide image" class="image">
+          <img src="./img/img4.jpg" alt="slide image" class="image">
+          <img src="./img/img5.jpg" alt="slide image" class="image">
+          <img src="./img/img6.jpg" alt="slide image" class="image">
+        </div>
+      </div>
+      
+      <!-- Right navigation button with Font Awesome chevron icon -->
+      <i id="next" class="fa-solid fa-chevron-right right"></i>
+    </div>
+    
+    <!-- Bottom section, which you can use for additional controls or indicators -->
+    <div class="bottom">
+      <!-- This area is currently empty. You might add slider indicators or other info here. -->
+    </div>
+  </div>
+  
+  <!-- Link to the JavaScript file that controls the slider functionality -->
+  <script src="./slider.js"></script>
+</body>
+</html>
